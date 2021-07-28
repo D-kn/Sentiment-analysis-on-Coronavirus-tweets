@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+
+  jupyter:
+    image: lrucourses/lp-courses:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ".:/work"
+
